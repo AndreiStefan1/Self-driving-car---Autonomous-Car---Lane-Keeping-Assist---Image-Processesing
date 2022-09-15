@@ -25,3 +25,5 @@ The used algorithm is doing the following important steps:
 ## Getting started
 To make the process easier , a video can be made with any other camera from the car's perspective of any path. This video then can be edited in the code editor , so it won't be necessary to run the car on the path anytime we want to make a change regarding the path's perspective . To test the changes made in the code editor on the test video , simply run the code from the "LaneDetectionModule" . 
 Anytime you want to test the full code , run the whole code from the main module .
+
+![image](https://user-images.githubusercontent.com/111795066/190509310-b1800fb2-d640-4fc4-b18c-b3449944d75c.png)

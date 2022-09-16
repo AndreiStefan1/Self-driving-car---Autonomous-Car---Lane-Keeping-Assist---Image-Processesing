@@ -11,7 +11,7 @@ Implementation of a real Lane Assist system on a project car . The car is using 
 
 
 ## The concept 
-Image processing is the use of a digital computer to process digital images through an algorithm. In this case we use a microprocessor (Raspberry PI 4) to make the process possible . In order for the process to work , the road must be white (or if any other colored is chosed , then the color coordinates should be changed in the HSV color space). The camera should be positioned high and centered. 
+Image processing is the use of a digital computer to process digital images through an algorithm. In this case we use a microprocessor (Raspberry PI 4) to make the process possible . In order for the process to work , the road must be white (or if any other color is chosed , then the color coordinates should be changed in the HSV color space). The camera should be positioned high and centered. 
 
 The used algorithm is doing the following important steps:
 

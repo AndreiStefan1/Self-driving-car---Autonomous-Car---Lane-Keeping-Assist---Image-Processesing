@@ -36,5 +36,8 @@ Figure 2. DC Motors and L298N DC Motor Driver positions
 
 ![image](https://github.com/AndreiStefan1/Self-driving-car---Autonomous-Car---Lane-Keeping-Assist/assets/111795066/7d0b1ba5-a9c0-40d9-b0fc-5177a9607e0a)
 
+Figure 3. Graphical Wiring diagram 
+
 ![image](https://github.com/AndreiStefan1/Self-driving-car---Autonomous-Car---Lane-Keeping-Assist/assets/111795066/80d6e118-61c8-4ced-8924-e2ed3c7638c5)
 
+Figure 4. Wiring diagram 

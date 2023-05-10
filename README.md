@@ -5,8 +5,8 @@ Implementation of a real Lane Assist system on a project car . The car is using 
 - Raspberry Pi 4B
 - Raspberry camera Pi V1.3
 - 5.000 mAh external baterry to power the Raspbery Pi microprocessor 
-- 4 AAA batteries to power up the engines
 - L298N DC Motor Driver 
+- 4 AAA batteries to power up the engines and L298N DC Motor Driver
 - 4x D.C motors ~ 3V-6V 
 
 

@@ -30,6 +30,8 @@ Anytime you want to test the full code , run the whole code from the main module
 
 Figure 1. Full Built Concept
 
+## Assembly Process
+
 ![image](https://github.com/AndreiStefan1/Self-driving-car---Autonomous-Car---Lane-Keeping-Assist/assets/111795066/1cba76df-e2d9-487a-a1d3-5507f3828f12)
 
 Figure 2. DC Motors and L298N DC Motor Driver positions

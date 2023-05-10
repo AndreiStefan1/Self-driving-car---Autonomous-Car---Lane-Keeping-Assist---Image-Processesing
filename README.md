@@ -27,3 +27,7 @@ To make the process easier , a video can be made with any other camera from the 
 Anytime you want to test the full code , run the whole code from the main module .
 
 ![image](https://user-images.githubusercontent.com/111795066/190509310-b1800fb2-d640-4fc4-b18c-b3449944d75c.png)
+![image](https://github.com/AndreiStefan1/Self-driving-car---Autonomous-Car---Lane-Keeping-Assist/assets/111795066/1cba76df-e2d9-487a-a1d3-5507f3828f12)
+![image](https://github.com/AndreiStefan1/Self-driving-car---Autonomous-Car---Lane-Keeping-Assist/assets/111795066/7d0b1ba5-a9c0-40d9-b0fc-5177a9607e0a)
+![image](https://github.com/AndreiStefan1/Self-driving-car---Autonomous-Car---Lane-Keeping-Assist/assets/111795066/80d6e118-61c8-4ced-8924-e2ed3c7638c5)
+

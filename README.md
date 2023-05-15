@@ -43,3 +43,29 @@ Figure 3. Graphical Wiring diagram
 ![image](https://github.com/AndreiStefan1/Self-driving-car---Autonomous-Car---Lane-Keeping-Assist/assets/111795066/80d6e118-61c8-4ced-8924-e2ed3c7638c5)
 
 Figure 4. Wiring diagram 
+
+## Image Processing Concept
+The prototype that was created is an autonomous robot-car that manages to stay on the track both on straight lines and in curves with the help of real-time image processing. The track is made up of a series of white A4 sheets, therefore we have a track consisting of a single lane. The implementation methodology used for a miniature autonomous car contains four main image processing components.
+The method used is the summation of pixels from the frames captured in real-time by the camera. A pixel is a small unit of a digital image that can be displayed on a display device. In a digital image, multiple pixels are combined to form a complete image or video, and an image contains multiple pixels arranged in rows and columns.
+The number of rows and columns is expressed as the image resolution. Since a computer only understands numbers, each pixel is represented by three numbers corresponding to the amounts of red, green, and blue (RGB) present in that pixel.
+
+![image](https://github.com/AndreiStefan1/Self-driving-car---Autonomous-Car---Lane-Keeping-Assist/assets/111795066/0b3331a5-ec4a-4dc6-962e-11fcfebe886d)
+
+Figure 5.Figure 13. Interpreting pixels in terms of values in an RGB color space.
+To use the pixel summation method, we use 8-bit frames where each pixel occupies exactly one byte (octet). This means that each pixel has 256 (2^8) possible numeric values, ranging from 0 to 255. Therefore, the color palette for an 8-bit image normally contains 256 possible colors, where 0 represents black and 255 represents white.
+The use of 8-bit images is necessary in this case because processing and editing them in real-time is much faster than performing the same operations on a 16 or 24-bit image.
+
+![image](https://github.com/AndreiStefan1/Self-driving-car---Autonomous-Car---Lane-Keeping-Assist/assets/111795066/1e90236e-2961-43b4-ae57-5987702125c2)
+
+Figure 6. Difference between a 24-bit and an 8-bit image.
+
+The processed images in this case are in black and white (binary) format. The pixels in the image either have a value of 255 (white) or 0 (black), at a resolution of 480 x 240. Therefore, we will use the total white pixels (since our track is white) to determine how much the car needs to turn to stay on the lane. The frames that will be edited in real-time are composed of 240 rows of pixels and 480 columns of pixels.
+
+![image](https://github.com/AndreiStefan1/Self-driving-car---Autonomous-Car---Lane-Keeping-Assist/assets/111795066/c41b90ce-4ed1-4d17-8faf-1e458938a5d4)
+
+Figure 15. Representation of a black and white track image in terms of pixels and the sum of white pixels per column.
+
+In Figure 6, the interpretation of the track in terms of pixels is shown. We can see that a right curve is illustrated, where white pixels have a value of 255, and black pixels have a value of 0. We can add up the sum of white pixels for each column, resulting in the total number of pixels per column.
+
+The car will know how much to turn based on the curve value, which is calculated using the average of the columns that contain white pixels in each frame. Knowing that a column of pixels has a sum of values greater than 0, it will contribute to our calculation to determine the curve value. If the sum of the column's values is 0, then that column is not considered.
+

@@ -63,9 +63,19 @@ The processed images in this case are in black and white (binary) format. The pi
 
 ![image](https://github.com/AndreiStefan1/Self-driving-car---Autonomous-Car---Lane-Keeping-Assist/assets/111795066/c41b90ce-4ed1-4d17-8faf-1e458938a5d4)
 
-Figure 15. Representation of a black and white track image in terms of pixels and the sum of white pixels per column.
+Figure 7. Representation of a black and white track image in terms of pixels and the sum of white pixels per column.
 
 In Figure 6, the interpretation of the track in terms of pixels is shown. We can see that a right curve is illustrated, where white pixels have a value of 255, and black pixels have a value of 0. We can add up the sum of white pixels for each column, resulting in the total number of pixels per column.
 
 The car will know how much to turn based on the curve value, which is calculated using the average of the columns that contain white pixels in each frame. Knowing that a column of pixels has a sum of values greater than 0, it will contribute to our calculation to determine the curve value. If the sum of the column's values is 0, then that column is not considered.
 
+## Code Implementation
+1.First step - Converting the images from RGB to HSV to Black and White
+
+![image](https://github.com/AndreiStefan1/Self-driving-car---Autonomous-Car---Lane-Keeping-Assist/assets/111795066/04496544-fa68-455a-8b65-f9ca78722377)
+Figure 8. Original camera frame and resulting frame 
+
+2.Second step - Changing the image peresective from 3D Plan to 2D Plan
+
+![image](https://github.com/AndreiStefan1/Self-driving-car---Autonomous-Car---Lane-Keeping-Assist/assets/111795066/9a223b39-a4d0-41c7-9f62-657adaa987db)
+Figure 9.3D Plan to 2D plan 

@@ -90,4 +90,5 @@ Figure 11. Eliminate Image Noise
 Figure 12. Calculating the pixels for every frame (example of a frame for straight  line)
 
 ![Curba Dreapta](https://github.com/AndreiStefan1/Self-driving-car---Autonomous-Car---Lane-Keeping-Assist/assets/111795066/8eaebb40-2522-4b11-a398-1c98e105245e)
+
 Figure 13. Calculating the pixels for every frame (example of a frame for turnning right )

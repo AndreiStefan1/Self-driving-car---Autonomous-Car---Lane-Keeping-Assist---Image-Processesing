@@ -51,7 +51,7 @@ The number of rows and columns is expressed as the image resolution. Since a com
 
 ![image](https://github.com/AndreiStefan1/Self-driving-car---Autonomous-Car---Lane-Keeping-Assist/assets/111795066/0b3331a5-ec4a-4dc6-962e-11fcfebe886d)
 
-Figure 5.Figure 13. Interpreting pixels in terms of values in an RGB color space.
+Figure 5. Interpreting pixels in terms of values in an RGB color space.
 
 To use the pixel summation method, we use 8-bit frames where each pixel occupies exactly one byte (octet). This means that each pixel has 256 (2^8) possible numeric values, ranging from 0 to 255. Therefore, the color palette for an 8-bit image normally contains 256 possible colors, where 0 represents black and 255 represents white.
 The use of 8-bit images is necessary in this case because processing and editing them in real-time is much faster than performing the same operations on a 16 or 24-bit image.
@@ -94,8 +94,6 @@ Figure 10.Orginal View Point to Transformed View Point
 ![image](https://github.com/AndreiStefan1/Self-driving-car---Autonomous-Car---Lane-Keeping-Assist/assets/111795066/35cadfc9-d600-41a1-a1cd-810d947c0ab9)
 
 Figure 11. Eliminate Image Noise
-
-5.Fifth image - Calculate pixels for every frame to have an output
 
 ![image](https://github.com/AndreiStefan1/Self-driving-car---Autonomous-Car---Lane-Keeping-Assist/assets/111795066/2a6b5a2a-c37c-4d37-89e2-112b8578ba72)
 

@@ -102,3 +102,14 @@ Figure 12. Calculating the pixels for every frame (example of a frame for straig
 ![Curba Dreapta](https://github.com/AndreiStefan1/Self-driving-car---Autonomous-Car---Lane-Keeping-Assist/assets/111795066/8eaebb40-2522-4b11-a398-1c98e105245e)
 
 Figure 13. Calculating the pixels for every frame (example of a frame for turnning right )
+
+In Figure 13, a rightward curve is represented. In this example, the minimum value is assumed to be 1. The columns that will be included in the calculation are those that contain white pixels (the sum per column is greater than the minimum value). The horizontal line represents the end of the first quarter of the image.
+For the average value of the curve, we will add the positions of the columns from 9 to 30 (all columns in the frame that contain values greater than the minimum value) and take the arithmetic mean.
+For the average value of the reference point, we will add the positions of the columns from 9 to 25 and take the arithmetic mean. These columns in the reference point calculation are the only ones that contain white pixels when the image is cropped three-quarters (from the horizontal line down).
+(9 + 10 + 11 + 12 + 13 + 14 + 15 + ⋯ + 30)/22
+Average Value Curve = 19.5
+ 
+(9 + 10 + 11 + 12 + 13 + 14 + 15 + ⋯ + 25)/2
+Average Value Reference Point = 17
+
+As a result of the difference between the average value of the curve and the average value of the reference point, we obtain 2.5, which represents the value of the curve and is positive, which means a rightward curve.

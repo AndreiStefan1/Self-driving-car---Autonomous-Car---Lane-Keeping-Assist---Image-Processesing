@@ -113,3 +113,9 @@ Average Value Curve = 19.5
 Average Value Reference Point = 17
 
 As a result of the difference between the average value of the curve and the average value of the reference point, we obtain 2.5, which represents the value of the curve and is positive, which means a rightward curve.
+This value is later filtred and sent to engines.
+
+
+
+https://github.com/AndreiStefan1/Self-driving-car---Autonomous-Car---Lane-Keeping-Assist---Image-Processesing/assets/111795066/2a3ca618-680e-48c5-8afe-e2cb321b45f1
+
